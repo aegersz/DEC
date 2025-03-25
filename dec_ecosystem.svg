@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1000" height="1400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- TITLE -->
+  <text x="50" y="50" font-family="Arial" font-size="24" fill="black">Digital Energy Cell (DEC) Ecosystem Overview</text>
+
+  <!-- DEC CORE STACK -->
+  <g id="DEC_Core" transform="translate(50, 100)">
+    <rect x="0" y="0" width="300" height="20" fill="#cccccc"/>
+    <text x="10" y="15" font-size="12">Top Electrode</text>
+
+    <rect x="0" y="30" width="300" height="40" fill="#f9f2d7"/>
+    <text x="10" y="55" font-size="12">Dialectric A (Crystal Layer)</text>
+
+    <rect x="0" y="80" width="300" height="30" fill="#dedede"/>
+    <text x="10" y="100" font-size="12">Dialectric B (Clay Separator)</text>
+
+    <rect x="0" y="120" width="300" height="40" fill="#cbe8f7"/>
+    <text x="10" y="145" font-size="12">Dialectric C (Dielectric Oil)</text>
+
+    <rect x="0" y="170" width="300" height="20" fill="#aaaaaa"/>
+    <text x="10" y="185" font-size="12">Bottom Electrode</text>
+
+    <text x="0" y="210" font-size="14" font-weight="bold">DEC Core Cell Stack</text>
+  </g>
+
+  <!-- DECLEAR THORIUM STACK -->
+  <g id="Declear_Thorium" transform="translate(400, 100)">
+    <rect x="0" y="0" width="300" height="20" fill="#333333"/>
+    <text x="10" y="15" font-size="12" fill="#ffffff">Top Electrode (Palladium/Graphite)</text>
+
+    <rect x="0" y="30" width="300" height="40" fill="#c9a56b"/>
+    <text x="10" y="55" font-size="12">Dialectric C (Thorium Dielectric Medium)</text>
+
+    <rect x="0" y="80" width="300" height="30" fill="#b8b6b6"/>
+    <text x="10" y="100" font-size="12">Dialectric B (Thermal Separator)</text>
+
+    <rect x="0" y="120" width="300" height="40" fill="#a58f72"/>
+    <text x="10" y="145" font-size="12">Dialectric A (Radiative Substrate)</text>
+
+    <rect x="0" y="170" width="300" height="20" fill="#555555"/>
+    <text x="10" y="185" font-size="12" fill="#ffffff">Shielded Bottom Electrode</text>
+
+    <text x="0" y="210" font-size="14" font-weight="bold">Declear Thorium Stack</text>
+  </g>
+
+  <!-- SMARTCHARGER 3070 OVERVIEW -->
+  <g id="SmartCharger" transform="translate(50, 350)">
+    <rect x="0" y="0" width="650" height="200" fill="#e6ffe6" stroke="#999" stroke-width="1"/>
+    <text x="10" y="20" font-size="14" font-weight="bold">SmartCharger 3070 Logic Block</text>
+
+    <text x="20" y="50" font-size="12">• Default Charge Window: 30%–70%</text>
+    <text x="20" y="70" font-size="12">• Override Range: 0%–100%</text>
+    <text x="20" y="90" font-size="12">• Thermal Cutoff: Active via NTC</text>
+    <text x="20" y="110" font-size="12">• Modes: Core / Burst / Breeder</text>
+    <text x="20" y="130" font-size="12">• AI Prediction: Disconnection logic + logs</text>
+    <text x="20" y="150" font-size="12">• Audible / Relay / FireComm Capable</text>
+  </g>
+
+</svg>
+
+/* ---
+How to Use:
+• Save as dec_ecosystem.svg
+• View in any modern browser
+• Edit in Inkscape, Figma, or Adobe Illustrator
+• Drop into your GitHub /schematics/ folder and embed in README.md or Description
+---
+*/
